@@ -20,10 +20,9 @@ xr.set_options(keep_attrs=True)
 import cartopy
 cartopy.config['data_dir'] = "/discover/nobackup/projects/jh_tutorials/JH_examples/JH_datafiles/Cartopy"
 cartopy.config['pre_existing_data_dir'] = "/discover/nobackup/projects/jh_tutorials/JH_examples/JH_datafiles/Cartopy"
-processed_dir = '/discover/nobackup/laroach1/data_modelE-so-sst/'
+processed_dir = '../data_modelE-so-sst/'
 cmip_dir = '/css/cmip6/CMIP6/'
 obs_dir = '/discover/nobackup/laroach1/OBS/'
-figdir = '../figs/'
 
 
 # convenient global variables
