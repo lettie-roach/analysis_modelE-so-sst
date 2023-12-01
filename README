@@ -1,0 +1,9 @@
+This repository contains analysis code and processed data described in "Winds and meltwater together lead to Southern Ocean surface cooling and sea ice expansion".
+
+`\data_modelE-so-sst`: stores processed model and observational data files (in NetCDF) used by analysis scripts
+
+`\analysis`: contains Python notebooks for analysis and plotting. These should run out of the box using the data provided
+
+`\processing`: constains the code used to create the processed model and observational files from raw model output and publicly-available data products. Other users will need to modify the file paths for their own systems
+
+
